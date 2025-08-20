@@ -108,15 +108,20 @@ def infer_and_display(cap):
 
     cap.release()
     cv2.destroyAllWindows()
-```
-###########################################
+
 # Run inference
 infer_and_display(cap)
+```
+###########################################
 Run it:
 python yolo_stream.py
 
 ################## ✅ Results ######################
 
+<img width="992" height="349" alt="Screenshot 2025-08-19 171015" src="https://github.com/user-attachments/assets/c8719bcf-b3f6-4899-a1b6-cb7affc5a653" />
+
+
+<img width="743" height="628" alt="Screenshot 2025-08-19 171513" src="https://github.com/user-attachments/assets/ebf92bfc-1307-4b75-940d-0cf8c29cf828" />
 
 Webcam runs on Windows host.
 
