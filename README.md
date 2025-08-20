@@ -112,4 +112,5 @@ Webcam runs on Windows host.
 YOLOv8 inference runs inside WSL2 (Ubuntu).
 
 Works in real time.
+
 ###############################################
