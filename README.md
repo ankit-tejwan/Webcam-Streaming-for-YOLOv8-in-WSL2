@@ -12,6 +12,9 @@ Error during camera setup: No device found
 ## 💡 Solution
 Use a **two-step workaround**:
 1. Run a **Flask streaming server** on the Windows host to capture the webcam.
+<img width="1408" height="894" alt="Screenshot 2025-08-19 171213" src="https://github.com/user-attachments/assets/1c24aed6-e26d-48eb-b111-077647bbf6a6" />
+
+
 2. Connect to that stream inside WSL2 and run **YOLOv8 inference** in real time.
 
 
