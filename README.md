@@ -104,8 +104,8 @@ infer_and_display(cap)
 Run it:
 python yolo_stream.py
 
-################################################
-✅ Results
+################## ✅ Results ######################
+
 
 Webcam runs on Windows host.
 
