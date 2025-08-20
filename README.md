@@ -103,6 +103,7 @@ def infer_and_display(cap):
 infer_and_display(cap)
 Run it:
 python yolo_stream.py
+
 ################################################
 ✅ Results
 
