@@ -42,12 +42,12 @@ def video():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
-```
+#######################################################################################
 Run it:
 python webcam_server.py
 Now your webcam is accessible at:
 👉 http://<windows_ip>:8080/video
-
+########################################################################################
 🐧 Step B: YOLOv8 Inference (inside WSL2)
 
 Create yolo_stream.py in Ubuntu WSL2:
