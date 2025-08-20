@@ -6,6 +6,7 @@ Running apps like `cheese`, OpenCV, or YOLO will give errors like:
 
 Error during camera setup: No device found
 
+<img width="1743" height="1049" alt="Screenshot 2025-08-19 171129" src="https://github.com/user-attachments/assets/a001efce-9527-4d43-8e96-7245b733b47d" />
 
 
 ## 💡 Solution
