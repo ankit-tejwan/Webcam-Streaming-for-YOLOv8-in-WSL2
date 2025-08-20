@@ -15,8 +15,6 @@ Use a **two-step workaround**:
 <img width="1408" height="894" alt="Screenshot 2025-08-19 171213" src="https://github.com/user-attachments/assets/1c24aed6-e26d-48eb-b111-077647bbf6a6" />
 
 
-2. Connect to that stream inside WSL2 and run **YOLOv8 inference** in real time.
-
 
 ## ⚙️ Step A: Webcam Streaming Server (Windows host)
 Create `webcam_server.py` on **Windows**:
@@ -51,8 +49,14 @@ Run it:
 
 python webcam_server.py
 
+
+2. Connect to that stream inside WSL2 and run **YOLOv8 inference** in real time.
+
 Now your webcam is accessible at:
 👉 http://<windows_ip>:8080/video
+
+<img width="1527" height="1024" alt="Screenshot 2025-08-19 171352" src="https://github.com/user-attachments/assets/7f6357ef-129e-4da0-9491-76c767c7e87d" />
+
 ########################################################################################
 🐧 Step B: YOLOv8 Inference (inside WSL2)
 
