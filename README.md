@@ -13,12 +13,11 @@ Use a **two-step workaround**:
 1. Run a **Flask streaming server** on the Windows host to capture the webcam.
 2. Connect to that stream inside WSL2 and run **YOLOv8 inference** in real time.
 
----
 
 ## ⚙️ Step A: Webcam Streaming Server (Windows host)
 Create `webcam_server.py` on **Windows**:
 
-```python ```
+```python
 from flask import Flask, Response
 import cv2
 
@@ -42,6 +41,7 @@ def video():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
+```
 #######################################################################################
 Run it:
 python webcam_server.py
@@ -52,7 +52,7 @@ Now your webcam is accessible at:
 
 Create yolo_stream.py in Ubuntu WSL2:
 
-```python ```
+```
 from ultralytics import YOLO
 import cv2
 import torch
