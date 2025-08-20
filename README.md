@@ -55,11 +55,11 @@ python webcam_server.py
 Now your webcam is accessible at:
 👉 http://<windows_ip>:8080/video
 
-# IMPORTANT: Replace <windows_ip> with your actual Windows host IPv4 address
-# You can find it by running `ipconfig` in Windows CMD or PowerShell.
-# Example: If ipconfig shows IPv4 Address . . . . . . : 192.168.1.42
-# Then use:
-# cap = cv2.VideoCapture("http://192.168.1.42:8080/video") 
+👉 IMPORTANT: Replace <windows_ip> with your actual Windows host IPv4 address
+👉 You can find it by running `ipconfig` in Windows CMD or PowerShell.
+👉 Example: If ipconfig shows IPv4 Address . . . . . . : 192.168.1.42
+👉 Then use:
+👉 cap = cv2.VideoCapture("http://192.168.1.42:8080/video") 
 
 
 <img width="1527" height="1024" alt="Screenshot 2025-08-19 171352" src="https://github.com/user-attachments/assets/7f6357ef-129e-4da0-9491-76c767c7e87d" />
