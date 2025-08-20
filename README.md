@@ -48,7 +48,7 @@ python webcam_server.py
 Now your webcam is accessible at:
 👉 http://<windows_ip>:8080/video
 
-
+```
 🐧 Step B: YOLOv8 Inference (inside WSL2)
 
 Create yolo_stream.py in Ubuntu WSL2:
@@ -98,7 +98,8 @@ def infer_and_display(cap):
 
     cap.release()
     cv2.destroyAllWindows()
-
+```
+###########################################
 # Run inference
 infer_and_display(cap)
 Run it:
