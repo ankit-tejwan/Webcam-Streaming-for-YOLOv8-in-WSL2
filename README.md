@@ -18,7 +18,7 @@ Use a **two-step workaround**:
 ## ⚙️ Step A: Webcam Streaming Server (Windows host)
 Create `webcam_server.py` on **Windows**:
 
-```python
+```python ```
 from flask import Flask, Response
 import cv2
 
@@ -48,11 +48,11 @@ python webcam_server.py
 Now your webcam is accessible at:
 👉 http://<windows_ip>:8080/video
 
-```
 🐧 Step B: YOLOv8 Inference (inside WSL2)
 
 Create yolo_stream.py in Ubuntu WSL2:
 
+```python ```
 from ultralytics import YOLO
 import cv2
 import torch
